@@ -1,0 +1,16 @@
+[
+  {
+	"modid": "autorespawn",
+	"name": "Auto Respawn",
+	"description": "Automatically respawn without needing to press the respawn button.",
+	"version": "1.0.0",
+	"mcversion": "1.8.9",
+	"url": "https://github.com/MicrocontrollersDev/AutoRespawn",
+	"updateUrl": "",
+	"authorList": ["RRunnerX", "Microcontrollers"],
+	"credits": "RRunnerX for the original mod, Microcontrollers for the 1.8.9 port.",
+	"logoFile": "",
+	"screenshots": [],
+	"dependencies": []
+  }
+]
