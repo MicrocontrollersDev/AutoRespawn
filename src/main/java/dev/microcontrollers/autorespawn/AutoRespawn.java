@@ -8,7 +8,6 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @Mod(name = "autorespawn", modid = "autorespawn", version = "1.0.0", acceptedMinecraftVersions = "1.8.9", clientSideOnly = true)
 public class AutoRespawn {
-
     public static MyConfig config;
 
     @Mod.EventHandler

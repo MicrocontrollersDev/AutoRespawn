@@ -6,7 +6,6 @@ import cc.polyfrost.oneconfig.config.data.Mod;
 import cc.polyfrost.oneconfig.config.data.ModType;
 
 public class MyConfig extends Config {
-
     @Switch(
             name = "AutoRespawn Toggle",
             category = "General", subcategory = "General"
