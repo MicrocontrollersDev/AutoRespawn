@@ -11,8 +11,8 @@ import java.util.concurrent.TimeUnit;
 public class Handler {
     @SubscribeEvent
     public void GuiOpenEvent(GuiOpenEvent event) {
-        if(event.gui instanceof GuiGameOver && MyConfig.autoRespawn) {
-            Multithreading.schedule(() -> Minecraft.getMinecraft().thePlayer.respawnPlayer(), 1, TimeUnit.SECONDS);
+        if (event.gui instanceof GuiGameOver && ARConfig.autoRespawn) {
+            Multithreading.schedule(() -> Minecraft.getMinecraft().thePlayer.respawnPlayer(), ARConfig.instantRespawn ? 0 : 1, TimeUnit.SECONDS);
         }
     }
 }

@@ -5,14 +5,20 @@ import cc.polyfrost.oneconfig.config.annotations.Switch;
 import cc.polyfrost.oneconfig.config.data.Mod;
 import cc.polyfrost.oneconfig.config.data.ModType;
 
-public class MyConfig extends Config {
+public class ARConfig extends Config {
     @Switch(
-            name = "AutoRespawn Toggle",
+            name = "Auto Respawn Toggle",
             category = "General", subcategory = "General"
     )
     public static boolean autoRespawn;
 
-    public MyConfig() {
+    @Switch(
+            name = "Instant Respawn (most likely bannable)",
+            category = "General", subcategory = "General"
+    )
+    public static boolean instantRespawn;
+
+    public ARConfig() {
         super(new Mod("Auto Respawn", ModType.UTIL_QOL), "config.json");
         initialize();
     }
