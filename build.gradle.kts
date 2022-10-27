@@ -28,7 +28,7 @@ blossom {
 }
 
 version = mod_version
-group = "cc.polyfrost"
+group = "dev.microcontrollers"
 base {
     archivesName.set("$mod_id-$platform")
 }
