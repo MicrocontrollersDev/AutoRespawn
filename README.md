@@ -5,4 +5,4 @@ Based on RRunnerX's [original mod](https://github.com/RRunnerX/Auto-Respawn-for-
 ## Features
 
 - Toggle to automatically respawn
-- Respawn has a toggleable 1 second delay to prevent server bans or misuse.
+- Respawn has a toggleable 1 second delay to prevent server bans or misuse (default: ON)
