@@ -14,18 +14,19 @@ public class ARConfig extends Config {
     )
     public static boolean autoRespawn;
 
+    @Info(
+            text = "Insant Respawn may be bannable on most servers! Use at your own risk! This feature is disabled when on Hypixel.",
+            size = 2,
+            type = InfoType.WARNING,
+            category = "General", subcategory = "Extras"
+    )
+    private boolean instantRespawnWarning = false;
+
     @Switch(
             name = "Instant Respawn",
             category = "General", subcategory = "Extras"
     )
     public static boolean instantRespawn;
-
-    @Info(
-            text = "Insant Respawn may be bannable on most servers! Use at your own risk!",
-            size = 2,
-            type = InfoType.WARNING
-    )
-    private boolean instantRespawnWarning = false;
 
     public ARConfig() {
         super(new Mod("Auto Respawn", ModType.UTIL_QOL), "config.json");
