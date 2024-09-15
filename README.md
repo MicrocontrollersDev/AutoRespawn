@@ -1,3 +1,5 @@
+# Moved to https://codeberg.org/MicrocontrollersDev/AutoRespawn
+
 # AutoRespawn
 
 ![OneConfig](https://github.com/MicrocontrollersDev/AutoRespawn/assets/66657148/9ba48af8-9958-4f2e-81d7-319739b9ec10)
